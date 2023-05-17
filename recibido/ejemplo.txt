@@ -1,0 +1,213 @@
+dmartin@alamo:~/eclipse/DAW2022E3A Agenda$ java -cp bin jcolonia.daw2022.mayo.ControlAgenda
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 1
+
+Agregar teléfono
+------------------
+>> Introduzca un nuevo teléfono: 111222333
+>> Introduzca el nombre: Germán Muñoz
+     → 1 teléfono en la agenda
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 2
+
+Lista de teléfonos
+--------------------
+     → 1 teléfono en la agenda
+   1: Germán Muñoz → 111222333
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 3
+
+  1 teléfono en la agenda
+  Esta agenda no ha sido importada
+  Esta agenda no ha sido exportada
+  Esta agenda no ha sido reiniciada
+
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 1
+
+Agregar teléfono
+------------------
+>> Introduzca un nuevo teléfono: 123abc234
+     → Entrada no aceptable: «123abc234» debe tener 9 dígitos numéricos
+>> Introduzca un nuevo teléfono: 123
+     → Entrada no aceptable: «123      » debe tener 9 dígitos numéricos
+>> Introduzca un nuevo teléfono: 456
+     → Entrada no aceptable: «456      » debe tener 9 dígitos numéricos
+>> Introduzca un nuevo teléfono: +45
+     → Entrada no aceptable: «+45      » debe tener 9 dígitos numéricos
+>> Introduzca un nuevo teléfono: Alfonso23
+     → Entrada no aceptable: «Alfonso23» debe tener 9 dígitos numéricos
+     → ¡Demasiados errores!
+     → No se ha agregado ningún teléfono
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 2
+
+Lista de teléfonos
+--------------------
+     → 1 teléfono en la agenda
+   1: Germán Muñoz → 111222333
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 1
+
+Agregar teléfono
+------------------
+>> Introduzca un nuevo teléfono: 123123123
+>> Introduzca el nombre: Marta Morco
+     → 2 teléfonos en la agenda
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 1
+
+Agregar teléfono
+------------------
+>> Introduzca un nuevo teléfono: 123123123
+>> Introduzca el nombre: Rosa Palacios
+El teléfono «123123123» ya está en la agenda ¿desea modificarlo (S/N)? n
+     → ¡Entrada abortada!
+     → No se ha agregado ningún teléfono
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 2
+
+Lista de teléfonos
+--------------------
+     → 2 teléfonos en la agenda
+   1: Marta Morco → 123123123
+   2: Germán Muñoz → 111222333
+>> Pulsar «Intro» para continuar… 3
+>> Pulsar «Intro» para continuar… 3
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 4
+
+   Hay 0 registros
+     → Agenda restablecida
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 2
+
+Lista de teléfonos
+--------------------
+     → Agenda vacía
+>> Pulsar «Intro» para continuar… 
+
+
+===================
+ AGENDA TELEFÓNICA
+===================
+   1) Agregar teléfono
+   2) Mostrar agenda
+   3) Mostrar estado
+   4) Restablecer
+   5) SALIR
+>> Introduzca la opción deseada: 
+>> Introduzca la opción deseada: 
+>> Introduzca la opción deseada: 0
+     → ¡ATENCIÓN: entrada incorrecta!: «Valor fuera del rango [1..5]» (1/5 intentos)
+>> Introduzca la opción deseada: 0
+     → ¡ATENCIÓN: entrada incorrecta!: «Valor fuera del rango [1..5]» (2/5 intentos)
+>> Introduzca la opción deseada: 0
+     → ¡ATENCIÓN: entrada incorrecta!: «Valor fuera del rango [1..5]» (3/5 intentos)
+>> Introduzca la opción deseada: 0
+     → ¡ATENCIÓN: entrada incorrecta!: «Valor fuera del rango [1..5]» (4/5 intentos)
+>> Introduzca la opción deseada: 0
+     → ¡ATENCIÓN: entrada incorrecta!: «Valor fuera del rango [1..5]» (5/5 intentos)
+>> Introduzca la opción deseada: 0
+     → ¡ATENCIÓN: entrada incorrecta!: «Valor fuera del rango [1..5]» (6/5 intentos)
+     → Demasiados fallos…
+     → ¡¡¡A-D-I-O-S!!
+dmartin@alamo:~/eclipse/DAW2022E3A Agenda$
